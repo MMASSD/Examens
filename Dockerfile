@@ -10,4 +10,4 @@ RUN chown -R ${NB_USER} ${HOME}
 
 USER $NB_USER
 
-RUN pip install -I pyspark
+RUN pip install --no-cache-dir -I pyspark
